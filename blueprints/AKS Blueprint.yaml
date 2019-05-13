@@ -8,6 +8,9 @@ metadata:
 clouds:
 - azure 2/aks-cluster
 
+inputs:
+- username
+
 applications:
 - simple-web-server-app:
     instances: 2
