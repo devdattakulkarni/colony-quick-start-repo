@@ -6,7 +6,7 @@ metadata:
   description: Blueprint that deploys two instances of a simple web server app in AKS
 
 clouds:
-- azure/aks-cluster
+- azure/quali-test
 
 inputs:
 - username
