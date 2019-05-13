@@ -1,0 +1,13 @@
+kind: blueprint
+spec_version: 1
+environmentType: sandbox
+
+metadata:
+  description: Blueprint that deploys two instances of a simple web server app in AKS
+
+clouds:
+- azure 2/aks-cluster
+
+applications:
+- simple-web-server-app:
+    instances: 2
