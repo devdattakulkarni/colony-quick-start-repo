@@ -14,3 +14,5 @@ inputs:
 applications:
 - simple-web-server-app:
     instances: 2
+    input_values:
+      - username: $username

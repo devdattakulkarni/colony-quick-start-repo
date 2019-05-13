@@ -1,6 +1,9 @@
 kind: application
 spec_version: 1
 
+inputs:
+  - username
+
 configuration:
   healthcheck:
     script: simple-web-server-hc.sh
