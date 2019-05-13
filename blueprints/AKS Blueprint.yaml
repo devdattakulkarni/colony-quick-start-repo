@@ -6,7 +6,7 @@ metadata:
   description: Blueprint that deploys two instances of a simple web server app in AKS
 
 clouds:
-- azure 2/aks-cluster
+- azure/aks-cluster
 
 inputs:
 - username
